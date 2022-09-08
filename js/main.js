@@ -65,7 +65,7 @@ function createUser(){
         age: userAge,
         isLogin: false,
         getMessage: [],
-        sendMessage: []
+        sentMessage: []
     }
     users.push(userObj);
     alert('Пользователь успешно добавлен');
